@@ -31,3 +31,11 @@
 3	59	0	/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/Calculator_autogen/include/ui_calculator.h	8df82b1561663e46
 59	1167	1643178657793572411	CMakeFiles/Calculator.dir/calculator.cpp.o	5018774b613aaa18
 1167	1226	1643178657856201943	Calculator	9bf23458a2cc8363
+3	59	0	CMakeFiles/Calculator_autogen	8df82b1561663e46
+3	59	0	Calculator_autogen/mocs_compilation.cpp	8df82b1561663e46
+3	59	0	Calculator_autogen/include/ui_calculator.h	8df82b1561663e46
+3	59	0	/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/CMakeFiles/Calculator_autogen	8df82b1561663e46
+3	59	0	/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/Calculator_autogen/mocs_compilation.cpp	8df82b1561663e46
+3	59	0	/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/Calculator_autogen/include/ui_calculator.h	8df82b1561663e46
+59	1195	1643179153591040302	CMakeFiles/Calculator.dir/calculator.cpp.o	5018774b613aaa18
+1196	1263	1643179153662784102	Calculator	9bf23458a2cc8363

@@ -28,24 +28,24 @@ public:
     QWidget *widget;
     QGridLayout *gridLayout;
     QPushButton *btnClear;
-    QPushButton *pushButton_4;
-    QPushButton *pushButton_10;
-    QPushButton *pushButton_8;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_5;
-    QPushButton *pushButton_15;
-    QPushButton *pushButton_19;
-    QPushButton *pushButton_11;
-    QPushButton *pushButton_16;
-    QPushButton *pushButton_17;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_13;
-    QPushButton *pushButton_18;
-    QPushButton *pushButton_12;
-    QPushButton *pushButton_9;
-    QPushButton *pushButton_7;
-    QPushButton *pushButton_6;
-    QPushButton *pushButton_14;
+    QPushButton *btnDivide;
+    QPushButton *btn6;
+    QPushButton *btn9;
+    QPushButton *btnPercent;
+    QPushButton *btnMultiply;
+    QPushButton *btn2;
+    QPushButton *btnEqual;
+    QPushButton *btn5;
+    QPushButton *btn3;
+    QPushButton *btn0;
+    QPushButton *btnNP;
+    QPushButton *btn1;
+    QPushButton *btnPoint;
+    QPushButton *btnPlus;
+    QPushButton *btn4;
+    QPushButton *btn7;
+    QPushButton *btn8;
+    QPushButton *btnMinus;
 
     void setupUi(QWidget *calculator)
     {
@@ -89,167 +89,167 @@ public:
 
         gridLayout->addWidget(btnClear, 0, 0, 1, 1);
 
-        pushButton_4 = new QPushButton(widget);
-        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
-        sizePolicy.setHeightForWidth(pushButton_4->sizePolicy().hasHeightForWidth());
-        pushButton_4->setSizePolicy(sizePolicy);
-        pushButton_4->setFont(font1);
-        pushButton_4->setFlat(false);
+        btnDivide = new QPushButton(widget);
+        btnDivide->setObjectName(QStringLiteral("btnDivide"));
+        sizePolicy.setHeightForWidth(btnDivide->sizePolicy().hasHeightForWidth());
+        btnDivide->setSizePolicy(sizePolicy);
+        btnDivide->setFont(font1);
+        btnDivide->setFlat(false);
 
-        gridLayout->addWidget(pushButton_4, 0, 3, 1, 1);
+        gridLayout->addWidget(btnDivide, 0, 3, 1, 1);
 
-        pushButton_10 = new QPushButton(widget);
-        pushButton_10->setObjectName(QStringLiteral("pushButton_10"));
-        sizePolicy.setHeightForWidth(pushButton_10->sizePolicy().hasHeightForWidth());
-        pushButton_10->setSizePolicy(sizePolicy);
-        pushButton_10->setFont(font1);
-        pushButton_10->setFlat(false);
+        btn6 = new QPushButton(widget);
+        btn6->setObjectName(QStringLiteral("btn6"));
+        sizePolicy.setHeightForWidth(btn6->sizePolicy().hasHeightForWidth());
+        btn6->setSizePolicy(sizePolicy);
+        btn6->setFont(font1);
+        btn6->setFlat(false);
 
-        gridLayout->addWidget(pushButton_10, 2, 2, 1, 1);
+        gridLayout->addWidget(btn6, 2, 2, 1, 1);
 
-        pushButton_8 = new QPushButton(widget);
-        pushButton_8->setObjectName(QStringLiteral("pushButton_8"));
-        sizePolicy.setHeightForWidth(pushButton_8->sizePolicy().hasHeightForWidth());
-        pushButton_8->setSizePolicy(sizePolicy);
-        pushButton_8->setFont(font1);
-        pushButton_8->setFlat(false);
+        btn9 = new QPushButton(widget);
+        btn9->setObjectName(QStringLiteral("btn9"));
+        sizePolicy.setHeightForWidth(btn9->sizePolicy().hasHeightForWidth());
+        btn9->setSizePolicy(sizePolicy);
+        btn9->setFont(font1);
+        btn9->setFlat(false);
 
-        gridLayout->addWidget(pushButton_8, 1, 2, 1, 1);
+        gridLayout->addWidget(btn9, 1, 2, 1, 1);
 
-        pushButton_3 = new QPushButton(widget);
-        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
-        sizePolicy.setHeightForWidth(pushButton_3->sizePolicy().hasHeightForWidth());
-        pushButton_3->setSizePolicy(sizePolicy);
-        pushButton_3->setFont(font1);
-        pushButton_3->setFlat(false);
+        btnPercent = new QPushButton(widget);
+        btnPercent->setObjectName(QStringLiteral("btnPercent"));
+        sizePolicy.setHeightForWidth(btnPercent->sizePolicy().hasHeightForWidth());
+        btnPercent->setSizePolicy(sizePolicy);
+        btnPercent->setFont(font1);
+        btnPercent->setFlat(false);
 
-        gridLayout->addWidget(pushButton_3, 0, 2, 1, 1);
+        gridLayout->addWidget(btnPercent, 0, 2, 1, 1);
 
-        pushButton_5 = new QPushButton(widget);
-        pushButton_5->setObjectName(QStringLiteral("pushButton_5"));
-        sizePolicy.setHeightForWidth(pushButton_5->sizePolicy().hasHeightForWidth());
-        pushButton_5->setSizePolicy(sizePolicy);
-        pushButton_5->setFont(font1);
-        pushButton_5->setFlat(false);
+        btnMultiply = new QPushButton(widget);
+        btnMultiply->setObjectName(QStringLiteral("btnMultiply"));
+        sizePolicy.setHeightForWidth(btnMultiply->sizePolicy().hasHeightForWidth());
+        btnMultiply->setSizePolicy(sizePolicy);
+        btnMultiply->setFont(font1);
+        btnMultiply->setFlat(false);
 
-        gridLayout->addWidget(pushButton_5, 1, 3, 1, 1);
+        gridLayout->addWidget(btnMultiply, 1, 3, 1, 1);
 
-        pushButton_15 = new QPushButton(widget);
-        pushButton_15->setObjectName(QStringLiteral("pushButton_15"));
-        sizePolicy.setHeightForWidth(pushButton_15->sizePolicy().hasHeightForWidth());
-        pushButton_15->setSizePolicy(sizePolicy);
-        pushButton_15->setFont(font1);
-        pushButton_15->setFlat(false);
+        btn2 = new QPushButton(widget);
+        btn2->setObjectName(QStringLiteral("btn2"));
+        sizePolicy.setHeightForWidth(btn2->sizePolicy().hasHeightForWidth());
+        btn2->setSizePolicy(sizePolicy);
+        btn2->setFont(font1);
+        btn2->setFlat(false);
 
-        gridLayout->addWidget(pushButton_15, 3, 1, 1, 1);
+        gridLayout->addWidget(btn2, 3, 1, 1, 1);
 
-        pushButton_19 = new QPushButton(widget);
-        pushButton_19->setObjectName(QStringLiteral("pushButton_19"));
-        sizePolicy.setHeightForWidth(pushButton_19->sizePolicy().hasHeightForWidth());
-        pushButton_19->setSizePolicy(sizePolicy);
-        pushButton_19->setFont(font1);
-        pushButton_19->setFlat(false);
+        btnEqual = new QPushButton(widget);
+        btnEqual->setObjectName(QStringLiteral("btnEqual"));
+        sizePolicy.setHeightForWidth(btnEqual->sizePolicy().hasHeightForWidth());
+        btnEqual->setSizePolicy(sizePolicy);
+        btnEqual->setFont(font1);
+        btnEqual->setFlat(false);
 
-        gridLayout->addWidget(pushButton_19, 4, 3, 1, 1);
+        gridLayout->addWidget(btnEqual, 4, 3, 1, 1);
 
-        pushButton_11 = new QPushButton(widget);
-        pushButton_11->setObjectName(QStringLiteral("pushButton_11"));
-        sizePolicy.setHeightForWidth(pushButton_11->sizePolicy().hasHeightForWidth());
-        pushButton_11->setSizePolicy(sizePolicy);
-        pushButton_11->setFont(font1);
-        pushButton_11->setFlat(false);
+        btn5 = new QPushButton(widget);
+        btn5->setObjectName(QStringLiteral("btn5"));
+        sizePolicy.setHeightForWidth(btn5->sizePolicy().hasHeightForWidth());
+        btn5->setSizePolicy(sizePolicy);
+        btn5->setFont(font1);
+        btn5->setFlat(false);
 
-        gridLayout->addWidget(pushButton_11, 2, 1, 1, 1);
+        gridLayout->addWidget(btn5, 2, 1, 1, 1);
 
-        pushButton_16 = new QPushButton(widget);
-        pushButton_16->setObjectName(QStringLiteral("pushButton_16"));
-        sizePolicy.setHeightForWidth(pushButton_16->sizePolicy().hasHeightForWidth());
-        pushButton_16->setSizePolicy(sizePolicy);
-        pushButton_16->setFont(font1);
-        pushButton_16->setFlat(false);
+        btn3 = new QPushButton(widget);
+        btn3->setObjectName(QStringLiteral("btn3"));
+        sizePolicy.setHeightForWidth(btn3->sizePolicy().hasHeightForWidth());
+        btn3->setSizePolicy(sizePolicy);
+        btn3->setFont(font1);
+        btn3->setFlat(false);
 
-        gridLayout->addWidget(pushButton_16, 3, 2, 1, 1);
+        gridLayout->addWidget(btn3, 3, 2, 1, 1);
 
-        pushButton_17 = new QPushButton(widget);
-        pushButton_17->setObjectName(QStringLiteral("pushButton_17"));
-        sizePolicy.setHeightForWidth(pushButton_17->sizePolicy().hasHeightForWidth());
-        pushButton_17->setSizePolicy(sizePolicy);
-        pushButton_17->setFont(font1);
-        pushButton_17->setFlat(false);
+        btn0 = new QPushButton(widget);
+        btn0->setObjectName(QStringLiteral("btn0"));
+        sizePolicy.setHeightForWidth(btn0->sizePolicy().hasHeightForWidth());
+        btn0->setSizePolicy(sizePolicy);
+        btn0->setFont(font1);
+        btn0->setFlat(false);
 
-        gridLayout->addWidget(pushButton_17, 4, 0, 1, 2);
+        gridLayout->addWidget(btn0, 4, 0, 1, 2);
 
-        pushButton_2 = new QPushButton(widget);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-        sizePolicy.setHeightForWidth(pushButton_2->sizePolicy().hasHeightForWidth());
-        pushButton_2->setSizePolicy(sizePolicy);
-        pushButton_2->setFont(font1);
-        pushButton_2->setFlat(false);
+        btnNP = new QPushButton(widget);
+        btnNP->setObjectName(QStringLiteral("btnNP"));
+        sizePolicy.setHeightForWidth(btnNP->sizePolicy().hasHeightForWidth());
+        btnNP->setSizePolicy(sizePolicy);
+        btnNP->setFont(font1);
+        btnNP->setFlat(false);
 
-        gridLayout->addWidget(pushButton_2, 0, 1, 1, 1);
+        gridLayout->addWidget(btnNP, 0, 1, 1, 1);
 
-        pushButton_13 = new QPushButton(widget);
-        pushButton_13->setObjectName(QStringLiteral("pushButton_13"));
-        sizePolicy.setHeightForWidth(pushButton_13->sizePolicy().hasHeightForWidth());
-        pushButton_13->setSizePolicy(sizePolicy);
-        pushButton_13->setFont(font1);
-        pushButton_13->setFlat(false);
+        btn1 = new QPushButton(widget);
+        btn1->setObjectName(QStringLiteral("btn1"));
+        sizePolicy.setHeightForWidth(btn1->sizePolicy().hasHeightForWidth());
+        btn1->setSizePolicy(sizePolicy);
+        btn1->setFont(font1);
+        btn1->setFlat(false);
 
-        gridLayout->addWidget(pushButton_13, 3, 0, 1, 1);
+        gridLayout->addWidget(btn1, 3, 0, 1, 1);
 
-        pushButton_18 = new QPushButton(widget);
-        pushButton_18->setObjectName(QStringLiteral("pushButton_18"));
-        sizePolicy.setHeightForWidth(pushButton_18->sizePolicy().hasHeightForWidth());
-        pushButton_18->setSizePolicy(sizePolicy);
-        pushButton_18->setFont(font1);
-        pushButton_18->setFlat(false);
+        btnPoint = new QPushButton(widget);
+        btnPoint->setObjectName(QStringLiteral("btnPoint"));
+        sizePolicy.setHeightForWidth(btnPoint->sizePolicy().hasHeightForWidth());
+        btnPoint->setSizePolicy(sizePolicy);
+        btnPoint->setFont(font1);
+        btnPoint->setFlat(false);
 
-        gridLayout->addWidget(pushButton_18, 4, 2, 1, 1);
+        gridLayout->addWidget(btnPoint, 4, 2, 1, 1);
 
-        pushButton_12 = new QPushButton(widget);
-        pushButton_12->setObjectName(QStringLiteral("pushButton_12"));
-        sizePolicy.setHeightForWidth(pushButton_12->sizePolicy().hasHeightForWidth());
-        pushButton_12->setSizePolicy(sizePolicy);
-        pushButton_12->setFont(font1);
-        pushButton_12->setFlat(false);
+        btnPlus = new QPushButton(widget);
+        btnPlus->setObjectName(QStringLiteral("btnPlus"));
+        sizePolicy.setHeightForWidth(btnPlus->sizePolicy().hasHeightForWidth());
+        btnPlus->setSizePolicy(sizePolicy);
+        btnPlus->setFont(font1);
+        btnPlus->setFlat(false);
 
-        gridLayout->addWidget(pushButton_12, 2, 3, 1, 1);
+        gridLayout->addWidget(btnPlus, 2, 3, 1, 1);
 
-        pushButton_9 = new QPushButton(widget);
-        pushButton_9->setObjectName(QStringLiteral("pushButton_9"));
-        sizePolicy.setHeightForWidth(pushButton_9->sizePolicy().hasHeightForWidth());
-        pushButton_9->setSizePolicy(sizePolicy);
-        pushButton_9->setFont(font1);
-        pushButton_9->setFlat(false);
+        btn4 = new QPushButton(widget);
+        btn4->setObjectName(QStringLiteral("btn4"));
+        sizePolicy.setHeightForWidth(btn4->sizePolicy().hasHeightForWidth());
+        btn4->setSizePolicy(sizePolicy);
+        btn4->setFont(font1);
+        btn4->setFlat(false);
 
-        gridLayout->addWidget(pushButton_9, 2, 0, 1, 1);
+        gridLayout->addWidget(btn4, 2, 0, 1, 1);
 
-        pushButton_7 = new QPushButton(widget);
-        pushButton_7->setObjectName(QStringLiteral("pushButton_7"));
-        sizePolicy.setHeightForWidth(pushButton_7->sizePolicy().hasHeightForWidth());
-        pushButton_7->setSizePolicy(sizePolicy);
-        pushButton_7->setFont(font1);
-        pushButton_7->setFlat(false);
+        btn7 = new QPushButton(widget);
+        btn7->setObjectName(QStringLiteral("btn7"));
+        sizePolicy.setHeightForWidth(btn7->sizePolicy().hasHeightForWidth());
+        btn7->setSizePolicy(sizePolicy);
+        btn7->setFont(font1);
+        btn7->setFlat(false);
 
-        gridLayout->addWidget(pushButton_7, 1, 0, 1, 1);
+        gridLayout->addWidget(btn7, 1, 0, 1, 1);
 
-        pushButton_6 = new QPushButton(widget);
-        pushButton_6->setObjectName(QStringLiteral("pushButton_6"));
-        sizePolicy.setHeightForWidth(pushButton_6->sizePolicy().hasHeightForWidth());
-        pushButton_6->setSizePolicy(sizePolicy);
-        pushButton_6->setFont(font1);
-        pushButton_6->setFlat(false);
+        btn8 = new QPushButton(widget);
+        btn8->setObjectName(QStringLiteral("btn8"));
+        sizePolicy.setHeightForWidth(btn8->sizePolicy().hasHeightForWidth());
+        btn8->setSizePolicy(sizePolicy);
+        btn8->setFont(font1);
+        btn8->setFlat(false);
 
-        gridLayout->addWidget(pushButton_6, 1, 1, 1, 1);
+        gridLayout->addWidget(btn8, 1, 1, 1, 1);
 
-        pushButton_14 = new QPushButton(widget);
-        pushButton_14->setObjectName(QStringLiteral("pushButton_14"));
-        sizePolicy.setHeightForWidth(pushButton_14->sizePolicy().hasHeightForWidth());
-        pushButton_14->setSizePolicy(sizePolicy);
-        pushButton_14->setFont(font1);
-        pushButton_14->setFlat(false);
+        btnMinus = new QPushButton(widget);
+        btnMinus->setObjectName(QStringLiteral("btnMinus"));
+        sizePolicy.setHeightForWidth(btnMinus->sizePolicy().hasHeightForWidth());
+        btnMinus->setSizePolicy(sizePolicy);
+        btnMinus->setFont(font1);
+        btnMinus->setFlat(false);
 
-        gridLayout->addWidget(pushButton_14, 3, 3, 1, 1);
+        gridLayout->addWidget(btnMinus, 3, 3, 1, 1);
 
 
         retranslateUi(calculator);
@@ -260,26 +260,26 @@ public:
     void retranslateUi(QWidget *calculator)
     {
         calculator->setWindowTitle(QApplication::translate("calculator", "calculator", Q_NULLPTR));
-        label->setText(QApplication::translate("calculator", "0.009", Q_NULLPTR));
+        label->setText(QString());
         btnClear->setText(QApplication::translate("calculator", "C", Q_NULLPTR));
-        pushButton_4->setText(QApplication::translate("calculator", "/", Q_NULLPTR));
-        pushButton_10->setText(QApplication::translate("calculator", "6", Q_NULLPTR));
-        pushButton_8->setText(QApplication::translate("calculator", "9", Q_NULLPTR));
-        pushButton_3->setText(QApplication::translate("calculator", "%", Q_NULLPTR));
-        pushButton_5->setText(QApplication::translate("calculator", "X", Q_NULLPTR));
-        pushButton_15->setText(QApplication::translate("calculator", "2", Q_NULLPTR));
-        pushButton_19->setText(QApplication::translate("calculator", "=", Q_NULLPTR));
-        pushButton_11->setText(QApplication::translate("calculator", "5", Q_NULLPTR));
-        pushButton_16->setText(QApplication::translate("calculator", "3", Q_NULLPTR));
-        pushButton_17->setText(QApplication::translate("calculator", "0", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("calculator", "+/-", Q_NULLPTR));
-        pushButton_13->setText(QApplication::translate("calculator", "1", Q_NULLPTR));
-        pushButton_18->setText(QApplication::translate("calculator", ".", Q_NULLPTR));
-        pushButton_12->setText(QApplication::translate("calculator", "+", Q_NULLPTR));
-        pushButton_9->setText(QApplication::translate("calculator", "4", Q_NULLPTR));
-        pushButton_7->setText(QApplication::translate("calculator", "7", Q_NULLPTR));
-        pushButton_6->setText(QApplication::translate("calculator", "8", Q_NULLPTR));
-        pushButton_14->setText(QApplication::translate("calculator", "-", Q_NULLPTR));
+        btnDivide->setText(QApplication::translate("calculator", "/", Q_NULLPTR));
+        btn6->setText(QApplication::translate("calculator", "6", Q_NULLPTR));
+        btn9->setText(QApplication::translate("calculator", "9", Q_NULLPTR));
+        btnPercent->setText(QApplication::translate("calculator", "%", Q_NULLPTR));
+        btnMultiply->setText(QApplication::translate("calculator", "X", Q_NULLPTR));
+        btn2->setText(QApplication::translate("calculator", "2", Q_NULLPTR));
+        btnEqual->setText(QApplication::translate("calculator", "=", Q_NULLPTR));
+        btn5->setText(QApplication::translate("calculator", "5", Q_NULLPTR));
+        btn3->setText(QApplication::translate("calculator", "3", Q_NULLPTR));
+        btn0->setText(QApplication::translate("calculator", "0", Q_NULLPTR));
+        btnNP->setText(QApplication::translate("calculator", "+/-", Q_NULLPTR));
+        btn1->setText(QApplication::translate("calculator", "1", Q_NULLPTR));
+        btnPoint->setText(QApplication::translate("calculator", ".", Q_NULLPTR));
+        btnPlus->setText(QApplication::translate("calculator", "+", Q_NULLPTR));
+        btn4->setText(QApplication::translate("calculator", "4", Q_NULLPTR));
+        btn7->setText(QApplication::translate("calculator", "7", Q_NULLPTR));
+        btn8->setText(QApplication::translate("calculator", "8", Q_NULLPTR));
+        btnMinus->setText(QApplication::translate("calculator", "-", Q_NULLPTR));
     } // retranslateUi
 
 };
