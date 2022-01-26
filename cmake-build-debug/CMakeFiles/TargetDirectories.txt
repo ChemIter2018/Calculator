@@ -1,0 +1,4 @@
+/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir
+/Users/zhaoyi/CLionProjects/Calculator/cmake-build-debug/CMakeFiles/Calculator_autogen.dir
