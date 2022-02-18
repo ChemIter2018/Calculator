@@ -18,7 +18,12 @@ calculator::calculator(QWidget *parent) :
     connect(ui->btn9, SIGNAL(clicked()), this,SLOT(btnNine()));
     connect(ui->btn0, SIGNAL(clicked()), this,SLOT(btnZero()));
     connect(ui->btnPoint, SIGNAL(clicked()), this,SLOT(btnPoint()));
+    connect(ui->btnNP, SIGNAL(clicked()), this,SLOT(btnNP()));
+    connect(ui->btnPercent, SIGNAL(clicked()), this,SLOT(btnPercent()));
     connect(ui->btnPlus, SIGNAL(clicked()), this,SLOT(btnPlus()));
+    connect(ui->btnMinus, SIGNAL(clicked()), this,SLOT(btnMinus()));
+    connect(ui->btnMultiply, SIGNAL(clicked()), this,SLOT(btnMultiply()));
+    connect(ui->btnDivide, SIGNAL(clicked()), this,SLOT(btnDivide()));
     connect(ui->btnEqual, SIGNAL(clicked()), this,SLOT(btnEqual()));
 }
 
@@ -86,10 +91,49 @@ void calculator::btnPoint() {
     ui->label->setText(strLabel + ".");
 }
 
+void calculator::btnNP() {
+    QString strLabel = ui->label->text();
+    if(strLabel[0] == "-") {
+        ui->label->setText(strLabel.right(strLabel.length() - 1));
+    }
+    else{
+        ui->label->setText("-" + strLabel);
+    }
+}
+
+void calculator::btnPercent() {
+    QString strLabel = ui->label->text();
+    calculator::x = strLabel.toDouble();
+    calculator::strOperator = '%';
+    double calculatorResult = calculator::calculatorResult(calculator::x, 0.0, calculator::strOperator);
+    ui->label->setText(QString::number(calculatorResult));
+}
+
 void calculator::btnPlus() {
     QString strLabel = ui->label->text();
     calculator::x = strLabel.toDouble();
     calculator::strOperator = '+';
+    calculator::btnClear();
+}
+
+void calculator::btnMinus() {
+    QString strLabel = ui->label->text();
+    calculator::x = strLabel.toDouble();
+    calculator::strOperator = '-';
+    calculator::btnClear();
+}
+
+void calculator::btnMultiply() {
+    QString strLabel = ui->label->text();
+    calculator::x = strLabel.toDouble();
+    calculator::strOperator = 'x';
+    calculator::btnClear();
+}
+
+void calculator::btnDivide() {
+    QString strLabel = ui->label->text();
+    calculator::x = strLabel.toDouble();
+    calculator::strOperator = '/';
     calculator::btnClear();
 }
 
@@ -99,6 +143,8 @@ void calculator::btnEqual() {
     double calculatorResult = calculator::calculatorResult(calculator::x, calculator::y, calculator::strOperator);
     ui->label->setText(QString::number(calculatorResult));
 }
+
+
 
 double calculator::calculatorResult(double x, double y, char strOperator) {
     switch (strOperator) {
@@ -110,6 +156,8 @@ double calculator::calculatorResult(double x, double y, char strOperator) {
             return x * y;
         case '/':
             return x / y;
+        case '%':
+            return x / 100.0;
         default:
             return 0.0;
     }

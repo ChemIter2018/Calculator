@@ -35,7 +35,12 @@ public slots:
     void btnZero();
     void btnPoint();
     void btnPlus();
+    void btnMinus();
+    void btnMultiply();
+    void btnDivide();
+    void btnPercent();
     void btnEqual();
+    void btnNP();
 };
 
 
