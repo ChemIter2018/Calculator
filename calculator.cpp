@@ -140,6 +140,12 @@ void calculator::btnDivide() {
 void calculator::btnEqual() {
     QString strLabel = ui->label->text();
     calculator::y = strLabel.toDouble();
+    if(calculator::strOperator == '/' && calculator::y == 0)
+    {
+        ui->label->setText("<font color='red'>ERROR</font>");
+
+        return;
+    }
     double calculatorResult = calculator::calculatorResult(calculator::x, calculator::y, calculator::strOperator);
     ui->label->setText(QString::number(calculatorResult));
 }
